@@ -1,0 +1,11 @@
+<style>
+.box {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border: 6px dashed #333;
+    background: url("https://images.app.goo.gl/d7Px9gKTQCeV8rrw5") no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+} 
+</style>
