@@ -1,11 +1,11 @@
 require "capybara/rspec"
-require_relative "../../lib/rsp"
+require_relative "../../rsp"
 
 Capybara.app = RockScissorsPaper
 
 feature 'greeting' do
   scenario "the home page returns a successful status code" do
-    srand(67_809)
+    srand(67809)
     visit("/")
     expect(page.status_code).to eq(200)
   end

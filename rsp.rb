@@ -1,6 +1,6 @@
 require 'sinatra/base'
-require_relative './names'
-require_relative './buttons'
+require_relative './lib/names'
+require_relative './lib/buttons'
 
 class RockScissorsPaper < Sinatra::Base
   

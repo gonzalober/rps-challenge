@@ -1,5 +1,5 @@
 require "capybara/rspec"
-require_relative "../../lib/rsp"
+require_relative "../../rsp"
 
 Capybara.app = RockScissorsPaper
 

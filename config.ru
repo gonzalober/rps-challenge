@@ -1,2 +1,2 @@
-require_relative 'lib/rsp.rb'
+require_relative 'rsp'
 run RockScissorsPaper

@@ -1,4 +1,3 @@
-require 'buttons'
 require_relative "../../lib/buttons"
 
 describe ButtonsSession do
